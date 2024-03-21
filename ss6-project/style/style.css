@@ -57,21 +57,28 @@
     width: 100px;
 }
 
-.log-in{
-    text-align: center;
-    border-radius: 100px;
-    font-size: 25px;
-    
-    
-}
-.sign{
-    padding-top: 250px;
-    color: white;
-}
-body{
-    background-image: url(https://img.lovepik.com/photo/48013/0603.jpg_wh860.jpg);
-    width: 100%;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 100px;
+     height: auto; 
+     margin: 10x; 
+     padding: 20px;
+     position: relative;
+     left: 950px;
+ }
+ 
+ .display-1{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100px;
+     height: auto; 
+     margin: 10px;
+     position: relative;
+     left: 900px;
+ }
+
+ 
+
